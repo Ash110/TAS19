@@ -64,17 +64,18 @@ body{
     color:white;
     text-align: center;
     line-height: 9vh;
-    font-size: 3rem;
     font-family: google;
     box-shadow: 0 5px 5px grey;
     margin-bottom: 10%;
 }
 .events{
     background-image: url(../images/events.jpg);
+    font-size: 3rem;
 }
 
 .contact {
     background-image: url(../images/contact.jpg);
+    font-size: 2rem;
 }
 
 .register {
@@ -89,4 +90,18 @@ body{
 }
 .event_cards{
     margin: 7%;
+}
+.event_image{
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgb(168, 167, 167);
+}
+.event_body{
+    padding: 7%;
+}
+ul{
+    display:list-item;
+    list-style-type: circle;
 }
