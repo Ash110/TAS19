@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+        integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+        crossorigin=""></script>
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>TAS 2019</title>
+</head>
+
+<body>
+    <ul id="slide-out" class="sidenav" class="side-items">
+        <li>
+            <a href="index.html">HOME</a>
+        </li>
+        <li>
+            <a href="events.html">EVENTS</a>
+        </li>
+        <li>
+            <a href="map.html">EVENT MAP</a>
+        </li>
+        <li>
+            <a href="contact.html">CONTACT US</a>
+        </li>
+        <li>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScF4YUNXQ0B_7likAmnQUwqLVdJwDtiRUO5PwN8zZFYGG613w/viewform">REGISTER NOW!</a>
+        </li>
+    </ul>
+    <div class="header">
+        <p class="header_TAS">The Amateur Scientist</p>
+        <p class="header_2019">2019</p>
+        <a href="#" data-target="slide-out" class="sidenav-trigger">
+            <i class="material-icons" id="menuToggle">
+                menu
+            </i>
+        </a>
+    </div>
+    <div id="mapid"></div>
+    <p style="text-align: center;">
+        Click on the marker to know more
+    </p>
+    <div>
+        <ul class="ColourKey">
+            <li class="row">
+                <div class="col s6">
+                    <div class="MarkerColour MRD"></div>
+                </div>
+                <p class="col s6">MRD Block</p>
+            </li>
+            <li class="row">
+                <div class="col s6">
+                    <div class="MarkerColour B-Block"></div>
+                </div>
+                <p class="col s6">B Block</p>
+            </li>
+            <li class="row">
+                <div class="col s6">
+                    <div class="MarkerColour F-Block"></div>
+                </div>
+                <p class="col s6">F Block</p>
+            </li>
+            <li class="row">
+                <div class="col s6">
+                    <div class="MarkerColour G-Block"></div>
+                </div>
+                <p class="col s6">G Block</p>
+            </li>
+            <li class="row">
+                <div class="col s6">
+                    <div class="MarkerColour PiR3"></div>
+                </div>
+                <p class="col s6">PiR3 Food Court</p>
+            </li>
+        </ul>
+    </div>
+
+    <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="js/maps.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+
+</html>

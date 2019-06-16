@@ -5,7 +5,7 @@
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
         <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--  -->
         <link rel="stylesheet" type="text/css" href="css/animate.css">
         <link rel="stylesheet" type="text/css" href="css/index.css">
         <title>TAS 2019</title>
@@ -19,6 +19,9 @@
                 <a href="events.html">EVENTS</a>
             </li>
             <li>
+                <a href="map.html">EVENT MAP</a>
+            </li>
+            <li>
                 <a href="contact.html">CONTACT US</a>
             </li>
             <li>
@@ -29,16 +32,16 @@
         </ul>
         <div class="header">
             <p class="header_TAS">The Amateur Scientist</p>
-            <p class="header_2019">2019</p>
+            <p class="header_2019">24 August 2019</p>
             <a href="#" data-target="slide-out" class="sidenav-trigger">
                 <i class="material-icons" id="menuToggle">
                     menu
                 </i>
-            </a>`
+            </a>
         </div>
 
-        <img src="images/TAS_1.png" class="homepage_image" />
-
+        <img src="images/TAS_1.png" class="homepage_image scroll_for_baral" />
+        <div class='countdown' data-date="2019-08-24" data-time="09:00"></div>
         <div class="main_content">
             <p class="content_title">
                 Welcome to TAS '19
@@ -50,14 +53,13 @@
                 One of the largest gatherings for young minds across India, The Amateur Scientist attracts over 10,000
                 attendees from over 400 schools across 50 cities to indulge in plethora of science focused events to
                 showcase their skill and talent on a national level platform.
-                <br>
-                We have a Science Exhibition and Model Making events as out flagship, with more than 10 events including
-                Science Quiz, Cryptography, Treasure Hunt, and Mini Certification in Ethical Hacking, Entrepreneurship
-                and Photography among others, providing a whole lot of learning opportunities and a bundle of fun!
             </p>
             <div class="buttons">
                 <a href="events.html">
                     <div class="button events">EVENTS</div>
+                </a>
+                <a href="map.html">
+                    <div class="button event-map">EVENT MAP</div>
                 </a>
                 <a href="contact.html">
                     <div class="button contact">CONTACT US</div>
@@ -75,7 +77,8 @@
 
         <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
         <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script src="js/countdown.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
     </body>
 </html>

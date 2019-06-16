@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.pesu.tas2019" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>TAS2019</name>
+    <name>TAS</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        The official app for The Amateur Scientist 2019 at PESU Bangalore
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="ashwin110@protonmail.com" href="https://pes.edu">
+        Ashwin Alaparthi
     </author>
     <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
@@ -22,5 +22,21 @@
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
+    </platform>
+    <platform name="android">
+        <!--
+            ldpi    : 36x36 px
+            mdpi    : 48x48 px
+            hdpi    : 72x72 px
+            xhdpi   : 96x96 px
+            xxhdpi  : 144x144 px
+            xxxhdpi : 192x192 px
+        -->
+        <icon src="res/android/tas_logo_ldpi.png" density="ldpi" />
+        <icon src="res/android/tas_logo_mdpi.png" density="mdpi" />
+        <icon src="res/android/tas_logo_hdpi.png" density="hdpi" />
+        <icon src="res/android/tas_logo_xhdpi.png" density="xhdpi" />
+        <icon src="res/android/tas_logo_xxhdpi.png" density="xxhdpi" />
+        <icon src="res/android/tas_logo_xxxhdpi.png" density="xxxhdpi" />
     </platform>
 </widget>
