@@ -12,7 +12,7 @@ var MRD_icon = L.icon({
     popupAnchor: [-10, -20] // point from which the popup should open relative to the iconAnchor
 });
 var MRD_Marker = L.marker([12.9354787, 77.5350228], { icon: MRD_icon }).addTo(mymap);
-MRD_Marker.bindPopup("<b>MRD Block</b>.");
+MRD_Marker.bindPopup("<b>MRD Block</b><br><br><a href='http://maps.google.com/maps?daddr=12.9354787, 77.5350228' class='btn small' style='color:white; text-align:center;'>Navigate</a>.");
 var B_icon = L.icon({
     iconUrl: 'images/BlueMarker.png',
     iconSize: [22, 33], // size of the icon shadow
@@ -20,7 +20,7 @@ var B_icon = L.icon({
     popupAnchor: [-10, -20] // point from which the popup should open relative to the iconAnchor
 });
 var B_Marker = L.marker([12.935184, 77.53472], { icon: B_icon }).addTo(mymap);
-B_Marker.bindPopup("<b>B Block</b>.");
+B_Marker.bindPopup("<b>B Block</b><br><br><a href='http://maps.google.com/maps?daddr=12.935184, 77.53472' class='btn small' style='color:white; text-align:center;'>Navigate</a>.");
 var F_icon = L.icon({
     iconUrl: 'images/GreenMarker.png',
     iconSize: [22, 33], // size of the icon shadow
@@ -28,7 +28,7 @@ var F_icon = L.icon({
     popupAnchor: [-10, -20] // point from which the popup should open relative to the iconAnchor
 });
 var F_Marker = L.marker([12.933514, 77.535589], { icon: F_icon }).addTo(mymap);
-F_Marker.bindPopup("<b>F Block</b>.");
+F_Marker.bindPopup("<b>F Block</b><br><br><a href='http://maps.google.com/maps?daddr=12.933514, 77.535589' class='btn small' style='color:white; text-align:center;'>Navigate</a>.");
 var G_icon = L.icon({
     iconUrl: 'images/OrangeMarker.png',
     iconSize: [22, 33], // size of the icon shadow
@@ -36,7 +36,7 @@ var G_icon = L.icon({
     popupAnchor: [-10, -20] // point from which the popup should open relative to the iconAnchor
 });
 var G_Marker = L.marker([12.933668, 77.534090], { icon: G_icon }).addTo(mymap);
-G_Marker.bindPopup("<b>G Block</b>.");
+G_Marker.bindPopup("<b>G Block</b><br><br><a href='http://maps.google.com/maps?daddr=12.933668, 77.534090' class='btn small' style='color:white; text-align:center;'>Navigate</a>.");
 var PiR3_icon = L.icon({
     iconUrl: 'images/PinkMarker.png',
     iconSize: [22, 33], // size of the icon shadow
@@ -44,4 +44,4 @@ var PiR3_icon = L.icon({
     popupAnchor: [-10, -20] // point from which the popup should open relative to the iconAnchor
 });
 var PiR3 = L.marker([12.933720, 77.534568], { icon: PiR3_icon }).addTo(mymap);
-PiR3.bindPopup("<b>PiR3 Food Court</b>.");
+PiR3.bindPopup("<b>PiR3 Food Court</b><br><br><a href='http://maps.google.com/maps?daddr=12.933720, 77.534568' class='btn small' style='color:white; text-align:center;'>Navigate</a>.");
