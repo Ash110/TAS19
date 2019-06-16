@@ -1,0 +1,16 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {},
+    "cordova-plugin-x-socialsharing": {}
+  },
+  "dependent_plugins": {
+    "es6-promise-plugin": {}
+  }
+}
