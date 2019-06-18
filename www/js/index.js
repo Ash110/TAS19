@@ -1,7 +1,6 @@
 $(document).ready(function () {
     mapControl=true;
-    $(document).click(function(){   // To disable map zoom control      
-        console.log(mapControl);
+    $(document).click(function(){   // To disable map zoom control              
         if(mapControl==false){
             $(".leaflet-control-zoom").css("visibility", "visible");        
             mapControl=true;
