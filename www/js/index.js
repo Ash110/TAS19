@@ -1,4 +1,15 @@
 $(document).ready(function () {
+    mapControl=true;
+    $(document).click(function(){   // To disable map zoom control              
+        if(mapControl==false){
+            $(".leaflet-control-zoom").css("visibility", "visible");        
+            mapControl=true;
+        }     
+        else if($(".sidenav-overlay").css("display")=="block"){
+            $(".leaflet-control-zoom").css("visibility", "hidden");        
+            mapControl=false;
+        }           
+    })    
     $('.sidenav').sidenav();
     $(".scroll_for_baral").click(function(){
         $([document.documentElement, document.body]).animate({
