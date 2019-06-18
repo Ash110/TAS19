@@ -12,7 +12,7 @@ var MRD_icon = L.icon({
     popupAnchor: [-10, -20] // point from which the popup should open relative to the iconAnchor
 });
 var MRD_Marker = L.marker([12.9354787, 77.5350228], { icon: MRD_icon }).addTo(mymap);
-MRD_Marker.bindPopup("<b>MRD Block</b><br><br><a href='http://maps.google.com/maps?daddr=12.9354787, 77.5350228' class='btn small' style='color:white; text-align:center;'>Navigate</a>.");
+MRD_Marker.bindPopup("<b>MRD Block</b><br><br><ol><li>Shark Tank</li><li>Workshop</li></ol><br><br><a href='http://maps.google.com/maps?daddr=12.9354787, 77.5350228' class='btn small' style='color:white; text-align:center;'>Navigate</a>.");
 var B_icon = L.icon({
     iconUrl: 'images/BlueMarker.png',
     iconSize: [22, 33], // size of the icon shadow
@@ -20,7 +20,7 @@ var B_icon = L.icon({
     popupAnchor: [-10, -20] // point from which the popup should open relative to the iconAnchor
 });
 var B_Marker = L.marker([12.935184, 77.53472], { icon: B_icon }).addTo(mymap);
-B_Marker.bindPopup("<b>B Block</b><br><br><a href='http://maps.google.com/maps?daddr=12.935184, 77.53472' class='btn small' style='color:white; text-align:center;'>Navigate</a>.");
+B_Marker.bindPopup("<b>B Block</b><br><br><ol><li>Quiz</li><li>CodeWars</li><li>Debate Finals</li><li>IntelliSense</li><li>Bot 'N' Brawl </li><li>Enigma </li><li>Eclipse</li><br><br><a href='http://maps.google.com/maps?daddr=12.935184, 77.53472' class='btn small' style='color:white; text-align:center;'>Navigate</a>.");
 var F_icon = L.icon({
     iconUrl: 'images/GreenMarker.png',
     iconSize: [22, 33], // size of the icon shadow
@@ -28,7 +28,7 @@ var F_icon = L.icon({
     popupAnchor: [-10, -20] // point from which the popup should open relative to the iconAnchor
 });
 var F_Marker = L.marker([12.933514, 77.535589], { icon: F_icon }).addTo(mymap);
-F_Marker.bindPopup("<b>F Block</b><br><br><a href='http://maps.google.com/maps?daddr=12.933514, 77.535589' class='btn small' style='color:white; text-align:center;'>Navigate</a>.");
+F_Marker.bindPopup("<b>F Block</b><br><br><ol><li>Treasure Island Prelims</li><li>Junkyard Showdown Finals</li><li>Debate Prelims</li><br><br><a href='http://maps.google.com/maps?daddr=12.933514, 77.535589' class='btn small' style='color:white; text-align:center;'>Navigate</a>.");
 var G_icon = L.icon({
     iconUrl: 'images/OrangeMarker.png',
     iconSize: [22, 33], // size of the icon shadow
@@ -36,12 +36,20 @@ var G_icon = L.icon({
     popupAnchor: [-10, -20] // point from which the popup should open relative to the iconAnchor
 });
 var G_Marker = L.marker([12.933668, 77.534090], { icon: G_icon }).addTo(mymap);
-G_Marker.bindPopup("<b>G Block</b><br><br><a href='http://maps.google.com/maps?daddr=12.933668, 77.534090' class='btn small' style='color:white; text-align:center;'>Navigate</a>.");
+G_Marker.bindPopup("<b>G Block</b><br><br><ol><li>Junkyard Showdown Prelims</li><li>Scotland Yard</li><br><br><a href='http://maps.google.com/maps?daddr=12.933668, 77.534090' class='btn small' style='color:white; text-align:center;'>Navigate</a>.");
 var PiR3_icon = L.icon({
-    iconUrl: 'images/PinkMarker.png',
+    iconUrl: 'images/BlackMarker.png',
     iconSize: [22, 33], // size of the icon shadow
     iconAnchor: [20, 25], // point of the icon which will correspond to marker's location
     popupAnchor: [-10, -20] // point from which the popup should open relative to the iconAnchor
 });
 var PiR3 = L.marker([12.933720, 77.534568], { icon: PiR3_icon }).addTo(mymap);
-PiR3.bindPopup("<b>PiR3 Food Court</b><br><br><a href='http://maps.google.com/maps?daddr=12.933720, 77.534568' class='btn small' style='color:white; text-align:center;'>Navigate</a>.");
+PiR3.bindPopup("<b>PiR3 Food Court</b><br><br><br><a href='http://maps.google.com/maps?daddr=12.933720, 77.534568' class='btn small' style='color:white; text-align:center;'>Navigate</a>.");
+var StudentLounge_icon = L.icon({
+    iconUrl: 'images/PinkMarker.png',
+    iconSize: [22, 33], // size of the icon shadow
+    iconAnchor: [20, 25], // point of the icon which will correspond to marker's location
+    popupAnchor: [-10, -20] // point from which the popup should open relative to the iconAnchor
+});
+var StudentLounge = L.marker([12.934533, 77.535631], { icon: StudentLounge_icon }).addTo(mymap);
+StudentLounge.bindPopup("<b>Student Lounge</b><br><br><ol><li>Science Expo</li><li>Registrations</li><li>Fun Fairs</li><li>Food Trucks</li><br><br><a href='http://maps.google.com/maps?daddr=12.934533, 77.535631' class='btn small' style='color:white; text-align:center;'>Navigate</a>.");
